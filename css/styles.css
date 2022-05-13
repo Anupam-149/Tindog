@@ -1,0 +1,207 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight:bold;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+h3{
+
+  font-size: 1.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+
+/* NAVBAR -----------------------------------------------------------------*/
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 6%;
+}
+
+/* .navbar{
+  padding-bottom: 4.5rem;
+} */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+
+}
+
+.download-button{
+  margin: 5% 3% 0 0;
+}
+
+
+/* TITLE IMAGE ----------------------------------------------------------- */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+@media (max-width:1014px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 5%;
+  }
+}
+
+
+
+/* SECTION 2 --------------------------------------------------------------------------------*/
+
+#features{
+  /* margin: 10% auto;*/
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+
+.feature-box{
+  padding: 5%;
+}
+.icon{
+   color: #ef8172;
+   margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+
+
+/* Testimonials */
+
+#testimonials{
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin : 2%;
+}
+
+/* .carousel-control {
+    width: 100%;
+    margin-top: 1500px;
+} */
+
+/* .carousel-control.left {
+    margin-right: 15px;
+}
+.carousel-control.right {
+    margin-left: 15px;
+} */
+
+/*
+.carousel-control {
+    width: 66%;
+} */
+
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  padding: 2% 2% 5%;
+}
+
+
+
+/* Pricing */
+
+#pricing{
+  padding:100px;
+}
+
+.pricing-column{
+  padding:2% 3%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* Call to Action */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+
+
+/* FOOTER SECTION */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 8px;
+}
